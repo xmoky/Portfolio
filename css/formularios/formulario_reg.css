@@ -1,0 +1,65 @@
+body{
+  background-color: rgb(248, 241, 241);
+ 
+}
+
+
+/* Aplica estilos de Bootstrap al calendario */
+ .ui-datepicker {
+    font-size: 17px; /* Ajusta el tamaño del texto del calendario según tus necesidades */
+    background-color: #ffffff; /* Fondo blanco sólido para el calendario */
+    z-index: 2;
+  }
+  
+  /* Estilo para los botones de cambio de mes y año */
+  .ui-datepicker .ui-datepicker-prev,
+  .ui-datepicker .ui-datepicker-next {
+    background-color: black; /* Cambia el color de fondo de los botones de cambio de mes y año */
+
+    font-size: 16px; /* Ajusta el tamaño del texto de los botones según tus necesidades */
+
+  }
+  
+  /* Estilo para los días de la semana en el encabezado del calendario */
+  .ui-datepicker th {
+    background-color: black; /* Cambia el color de fondo de los días de la semana en el encabezado del calendario */
+    color: #ffffff; /* Cambia el color del texto de los días de la semana en el encabezado del calendario */
+
+  }
+  
+  /* Estilo para los días del mes en el calendario */
+  .ui-datepicker tbody td {
+    font-weight: bold; /* Hace que los números de los días sean negrita */
+	
+  }
+  
+  /* Estilo para el día seleccionado en el calendario */
+  .ui-datepicker .ui-state-active {
+    background-color: black; /* Cambia el color de fondo del día seleccionado en el calendario */
+    color: #ffffff; /* Cambia el color del texto del día seleccionado en el calendario */
+	
+  }
+
+ #datepicker{
+  position: relative;
+  z-index: 1;
+ }
+
+ #enviar{
+  background-color: black;
+  border-color: black;
+ }
+
+ .form-control:focus {
+  border-color: black; /* Cambia el color del borde a negro */
+  box-shadow: 2px 2px 5px 2px; /* Opcional: elimina la sombra del borde si no la deseas */
+}
+	
+h1{
+  background-color: rgb(237, 233, 233);
+    box-shadow: 1px 1px 5px 1px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+  

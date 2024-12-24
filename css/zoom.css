@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(248, 241, 241);
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    background-color: rgb(237, 233, 233);
+    box-shadow: 1px 1px 5px 1px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.magnifier {
+    position: absolute;
+    display: none;
+    border: 1px solid #ccc;
+    width: 30dvw;
+    height: 30dvh;
+    overflow: hidden;
+    background: white;
+}
+
+.image-container:hover .magnifier {
+    display: block;
+}
+
+.magnifier img {
+    position: absolute;
+}
+
+button {
+    
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+a{
+    color: white;
+}

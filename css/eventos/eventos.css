@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(248, 241, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+
+#filtro {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    max-width: 400px; 
+    width: 100%;
+    box-shadow: 3px 3px 8px 3px;
+}
+
+#opciones {
+    margin-bottom: 10px;
+}
+
+
+#agregar,#obtenerResultados{
+    margin-top: 3%;
+    margin-right: 2%;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 48%;
+}
+
+
+#formulario2 {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    max-width: 400px; 
+    width: 100%;
+    box-shadow: 3px 3px 8px 3px;
+}
+
+#formulario2 input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#actualizar, #borrar,#volver {
+    padding: 10px;
+    background-color: grey;
+    color: #fff;
+    border:0;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#actualizar,#borrar{
+    margin-bottom: 2px;
+}
+
+button#agregar {
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#formulario23 {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    max-width: 400px; 
+    width: 100%;
+    box-shadow: 3px 3px 8px 3px;
+}
+
+#formulario23 select,
+#formulario23 input,
+#formulario23 button {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#env {
+    padding: 10px;
+    background-color:grey;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+select {
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+#opciones {
+    margin-bottom: 10px;
+    
+}
+h1{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(237, 233, 233);
+    box-shadow: 1px 1px 5px 1px;
+}

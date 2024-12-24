@@ -1,0 +1,29 @@
+body{
+  background-color: rgb(248, 241, 241);;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  flex-direction: column;
+  margin: 0;
+}
+table {
+  border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid black;
+}
+img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+img.selected {
+  border: 2px solid blue;
+}
+button{
+  color: white;
+  background-color: #007bff;
+  border-radius:8%;
+  border: 0cm;
+}
+  

@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(248, 241, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+table {
+    width: 80dvw;
+    margin-bottom: 6%;
+    margin-top: 8%;
+    box-shadow: 2px 2px 8px 2px;
+    border-radius: 5px;
+}
+
+table,
+th,
+td {
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.editable-cell {
+    position: relative;
+}
+
+.editable-cell input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.editable-cell.editing {
+    background-color: #e0e0e0;
+    /* Highlight the editing cell */
+}
+
+input{
+    border:0px;
+    margin:0px;
+    border-radius: 0%;
+    border-collapse: collapse;
+    width: 100%;
+}
+input:focus{
+    outline: none;
+}
+a {
+    text-decoration: none;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+a:hover {
+    color: black;
+  }
+
+#navegacion{
+    background-color: rgb(237, 233, 233);
+    box-shadow: 2px 2px 8px 2px;
+    padding: 2%;
+    border-radius: 5%;
+}
+
+h1{
+    background-color: rgb(237, 233, 233);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 100%;
+    text-align: center;
+    box-shadow: 1px 1px 5px 1px;
+}

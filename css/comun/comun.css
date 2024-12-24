@@ -1,0 +1,142 @@
+body{
+    background-color: rgb(248, 241, 241);
+    text-align: center;
+}
+#logo,#usuario{
+    height: 33px;
+    width: 33px;
+}
+#categorias{
+    text-align: center;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    
+}
+
+.introduccion{
+    margin: 5%;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3%;
+    
+}
+#contenedor_nosotros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin-top: 4%;
+    margin-bottom: 10%;
+    gap: 8%;
+   
+}
+.h_nosotros {
+    background-color: rgb(237, 233, 233);
+    box-shadow: 3px 3px 10px 3px;
+    width: 40vw;
+    border: 1px solid black;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 10px;
+}
+#sobre_nosotros{
+    text-align: center;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+  
+}
+
+#foto_nosotros{
+    width: 28%;
+    height: 18%;
+    min-width: 400px;
+    min-height: 200px;
+    border-radius: 10px;
+    margin-top: 2%;
+    box-shadow: 3px 3px 10px 3px;
+    transition: transform 0.3s ease;
+}
+#foto_nosotros:hover{
+    transform: scale(1.2);
+}
+
+#cargaSVG {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 241, 241);
+    z-index: 20;
+    opacity: 0.7;
+}
+#box {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 105px;
+    height: 105px;
+    border-radius: 5px solid grey;
+
+}
+.negro{
+    background-color: black;
+    border-color: black;
+}
+.negro:hover{
+    background-color: grey;
+    border:none;
+}
+#svg {
+    width: 100px;
+    height: 100px;
+}
+
+#contacto{
+    text-align: center;
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    flex-flow: row wrap;
+    
+}
+
+#contacto h1 {
+    position: fixed;
+    align-self: center; 
+}
+
+#mapa{
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px 3px;
+    
+}
+
+.iconos{
+    width: 25%;
+}
+
+#caja-contacto{
+    background-color: rgb(237, 233, 233);
+    width: 20%;
+    height:10%;
+    display: inline-block;
+    box-shadow: 3px 3px 10px 3px;
+    display: flex;   
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 3%;
+}
+
+h1{
+    background-color: rgb(237, 233, 233);
+    box-shadow: 1px 1px 5px 1px;
+}
