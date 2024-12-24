@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/tabla_coches/tabla_coches.css">
+</head>
+
+<body>
+    <h1>GESTIÓN DE VEHÍCULOS</h1>
+    <table id="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Matricula</th>
+                <th>Marca</th>
+                <th>Modelo</th>
+                <th>Precio/Hora</th>
+                <th>Número de Plazas</th>
+                <th>Zona</th>
+                <th>Disponibilidad</th>
+                <th>Opciones</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+        <form id="addForm" onsubmit="saveFormData(event)">
+            <td></td>
+            <td>
+                <input type="text" id="matricula" name="matricula" required>
+            </td>
+            <td>
+                <input type="text" id="marca" name="marca" required>
+            </td>
+            <td>
+                <input type="text" id="modelo" name="modelo" required>
+            </td>
+            <td>
+                <input type="number" id="precio" name="precio" required>
+            </td>
+            <td>
+                <input type="number" id="plazas" name="plazas" required>
+            </td>
+            <td>
+                <input type="text" id="zona" name="zona" required>
+            </td>
+            <td>
+                <input type="date" id="disponibilidad" name="disponibilidad" required>
+            </td>
+            <td>
+                <input type="text" id="opciones" name="opciones" required>
+            </td>
+            <td>
+                <button type="submit">Añadir</button>
+            </td>
+        </form>
+    </table>
+    <div id="navegacion">
+        <h2>Volver a:</h2>
+        <a href="index.html">Inicio</a><br>
+        <br><a href="index.html#categorias">Categorias</a><br>
+        <br><a href="formulario_inicio.html">Inicio de sesión</a><br>
+    </div>
+    <script src="js/coches/coches.js"></script>
+</body>
+
+</html>

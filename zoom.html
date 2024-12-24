@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catering original</title>
+    <link rel="stylesheet" href="css/zoom.css">
+</head>
+
+<body>
+    <h1>VER DETALLE</h1>
+    <div class="image-container">
+        <button><a href="catering.html">Volver</a></button>
+        <img src="imagenes/catering/catering1.jpg" alt="catering1"><br>
+        <div class="magnifier"></div>
+        
+    </div>
+    
+    <script>
+        const imageContainer = document.querySelector('.image-container');
+        const magnifier = document.querySelector('.magnifier');
+
+        imageContainer.addEventListener('mousemove', function (e) {
+            const x = e.pageX - this.getBoundingClientRect().left;
+            const y = e.pageY - this.getBoundingClientRect().top;
+
+            const image = this.querySelector('img');
+            const ratioX = image.width / this.offsetWidth;
+            const ratioY = image.height / this.offsetHeight;
+
+            magnifier.style.backgroundImage = `url(${image.src})`;
+            magnifier.style.backgroundSize = `${image.width * ratioX * 2}px ${image.height * ratioY * 2}px`;
+            magnifier.style.backgroundPosition = `-${(x * ratioX * 2) - magnifier.offsetWidth / 2}px -${(y * ratioY * 2) - magnifier.offsetHeight / 2}px`;
+        });
+    </script>
+</body>
+
+</html>

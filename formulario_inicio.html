@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formularios/formulario_inicio.css">
+    <title>Inicio de sesión</title>
+</head>
+
+<body>
+
+    <div class="padre">
+        <h1>INICIO DE SESIÓN</h1>
+        <div class="hijo">
+            <input type="text" id="dni" placeholder="Ingresa tu DNI/NIE" name="dni">
+        </div>
+        <div class="hijo">
+            <table>
+                <tr id="camposcon">
+                    <td class="contraseña" id="con0"></td>
+                    <td class="contraseña" id="con1"></td>
+                    <td class="contraseña" id="con2"></td>
+                    <td class="contraseña" id="con3"></td>
+                    <td class="contraseña" id="con4"></td>
+                    <td class="contraseña" id="con5"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="hijo">
+            <button class="teclado" id="1"></button>
+            <button class="teclado" id="2"></button>
+            <button class="teclado" id="3"></button>
+            <button class="teclado" id="4"></button>
+            <button class="teclado" id="5"></button>
+            <button class="teclado" id="6"></button>
+            <button class="teclado" id="7"></button>
+            <button class="teclado" id="8"></button>
+            <button class="teclado" id="9"></button>
+            <button class="teclado" id="0"></button>
+        </div>
+        <div class="hijo">
+            <button id="enviar" disabled>Enviar</button>&nbsp&nbsp
+            <button id="cancelar"><a href="index.html">Cancelar</a></button>&nbsp&nbsp
+            <button id="mostrar" onclick=mostrarteclado()>Mostrar/Ocultar</button>&nbsp&nbsp
+            <button id="borrar">Borrar</button>
+        </div>
+    </div>
+
+    <script src="js/formularios/teclado_aleatorio.js"></script>
+    <script src="js/formularios/f_inicio.js"></script>
+    <script src="js/formularios/validadni.js"></script>
+</body>
+
+</html>
